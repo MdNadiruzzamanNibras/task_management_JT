@@ -13,7 +13,7 @@ const TaskPost = () => {
       decription :decription
     }
     
-    fetch('http://localhost:5000/tasks',{
+    fetch('https://task-management-backend-jt-mdnadiruzzamannibras.vercel.app/tasks',{
       method: 'POST',
       headers: {
         'content-type': 'application/json',

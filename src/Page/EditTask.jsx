@@ -14,7 +14,7 @@ const EditTask = () => {
             title: title,
             decription: decription
         }
-        fetch(`http://localhost:5000/task/${id}`, {
+        fetch(`https://task-management-backend-jt-mdnadiruzzamannibras.vercel.app/task/${id}`, {
             method: "PUT",
              headers:{
                 'content-type': 'application/json',
