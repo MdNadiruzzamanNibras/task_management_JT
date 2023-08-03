@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Tasks from "../Page/Tasks";
 import TaskPost from "../Page/TaskPost";
+import EditTask from "../Page/EditTask";
 
 export const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
         {
         path:'/post',
         element:<TaskPost/>
+      },
+        {
+        path:'/edit/:id',
+        element:<EditTask/>
       },
     ]
   },
